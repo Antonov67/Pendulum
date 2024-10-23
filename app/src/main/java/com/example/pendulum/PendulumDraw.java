@@ -35,6 +35,7 @@ public class PendulumDraw extends View {
         x0 = getWidth() / 2;
         y0 = getHeight() / 2;
         Paint paint = new Paint();
+        canvas.drawColor(Color.WHITE);
         canvas.drawCircle((float) x0, (float) y0, 10, paint);
         for (int i = 0; i < BALLS_COUNT; i++) {
             paint.setColor(Color.BLUE);
